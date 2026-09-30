@@ -7,7 +7,7 @@ const matches = [
         "stadium": "Banfield",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles en el debut"
+        "scorer": "Fue empate"
     },
     {
         "year": 2016,
@@ -17,7 +17,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 0,
         "rivalScore": 4,
-        "scorer": "Dura derrota en Córdoba"
+        "scorer": "Derrota en la final"
     },
     {
         "year": 2016,
@@ -27,7 +27,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en casa"
+        "scorer": "Gol de Leandro González para ellos"
     },
     {
         "year": 2016,
@@ -37,7 +37,7 @@ const matches = [
         "stadium": "Bicentenario de San Juan",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Gol de Carlos Tevez"
+        "scorer": "Hubo Gol de Carlos Tevez"
     },
     {
         "year": 2016,
@@ -47,7 +47,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 4,
         "rivalScore": 1,
-        "scorer": "Gol de Rodrigo Bentancur"
+        "scorer": "Hubo Gol de Rodrigo Bentancur"
     },
     {
         "year": 2016,
@@ -57,7 +57,7 @@ const matches = [
         "stadium": "Palmaseca",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en Colombia"
+        "scorer": "Fue empate en el debut de Copa"
     },
     {
         "year": 2016,
@@ -67,7 +67,7 @@ const matches = [
         "stadium": "El Cilindro",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en Avellaneda"
+        "scorer": "Gol de Roger Martinez para ellos"
     },
     {
         "year": 2016,
@@ -97,7 +97,7 @@ const matches = [
         "stadium": "Hernando Siles",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Gol de tiro libre de Federico Carrizo"
+        "scorer": "Gol agónico de tiro libre del Pachi Carrizo"
     },
     {
         "year": 2016,
@@ -117,7 +117,7 @@ const matches = [
         "stadium": "La Fortaleza",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Caída de visitante"
+        "scorer": "Gol de Lauataro Acosta a los 2mins"
     },
     {
         "year": 2016,
@@ -147,7 +147,7 @@ const matches = [
         "stadium": "Coliseo de Victoria",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en Victoria"
+        "scorer": "Boca usó la famosa camiseta negra"
     },
     {
         "year": 2016,
@@ -187,7 +187,7 @@ const matches = [
         "stadium": "Diego Armando Maradona",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en La Paternal"
+        "scorer": "Gol de Carlos Bueno para ellos"
     },
     {
         "year": 2016,
@@ -217,7 +217,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2016,
@@ -257,7 +257,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate para cerrar el torneo"
+        "scorer": "Fue Empate para cerrar el torneo"
     },
     {
         "year": 2016,
@@ -307,7 +307,7 @@ const matches = [
         "stadium": "La Fortaleza",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en el inicio del torneo"
+        "scorer": "Fue gol de Lautaro Acosta para ellos"
     },
     {
         "year": 2016,
@@ -337,7 +337,7 @@ const matches = [
         "stadium": "José María Minella",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Doblete de Carlos Tevez y triunfo por penales"
+        "scorer": "Hubo gol de Tevez"
     },
     {
         "year": 2016,
@@ -347,7 +347,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 4,
         "rivalScore": 1,
-        "scorer": "Hat-trick de Darío Benedetto"
+        "scorer": "Golazo de Darío Benedetto"
     },
     {
         "year": 2016,
@@ -377,7 +377,7 @@ const matches = [
         "stadium": "Monumental José Fierro",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Doblete de Cristian Pavón"
+        "scorer": "Hubo gol de Cristian Pavón"
     },
     {
         "year": 2016,
@@ -407,7 +407,7 @@ const matches = [
         "stadium": "Juan Carmelo Zerillo",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2016,
@@ -417,7 +417,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Gol de Partido con polémica con Teo Guttiérrez"
+        "scorer": "Gol de Partido con polémica con Teo Gutiérrez"
     },
     {
         "year": 2016,
@@ -437,7 +437,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 4,
         "rivalScore": 2,
-        "scorer": "Doblete de Walter Bou"
+        "scorer": "Gol de Walter Bou"
     },
     {
         "year": 2016,
@@ -467,7 +467,7 @@ const matches = [
         "stadium": "Florencio Sola",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2017,
@@ -527,7 +527,7 @@ const matches = [
         "stadium": "Nuevo Monumental",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2017,
@@ -547,7 +547,7 @@ const matches = [
         "stadium": "Ciudad de La Plata",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2017,
@@ -557,7 +557,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 3,
-        "scorer": "Gol de Fernando Gago"
+        "scorer": "Gol de Fernando Gago de tiro libre"
     },
     {
         "year": 2017,
@@ -587,7 +587,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2017,
@@ -607,7 +607,7 @@ const matches = [
         "stadium": "Roberto Carminatti",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Gol de Ricardo Centurión (Partido del campeonato)"
+        "scorer": "(Partido consagración del campeonato)"
     },
     {
         "year": 2017,
@@ -617,7 +617,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2017,
@@ -637,7 +637,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2017,
@@ -677,7 +677,7 @@ const matches = [
         "stadium": "Malvinas Argentinas",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota y eliminación"
+        "scorer": "Gol de Mauricio Martinez para ellos"
     },
     {
         "year": 2017,
@@ -737,7 +737,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Gol de Darío Benedetto (Lesión de LCA de Benedetto)"
+        "scorer": "Gol y rotura  de LCA de Benedetto"
     },
     {
         "year": 2017,
@@ -747,7 +747,7 @@ const matches = [
         "stadium": "Gigante de Arroyito",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota de visitante"
+        "scorer": "Gol de Marco Ruben"
     },
     {
         "year": 2017,
@@ -817,7 +817,7 @@ const matches = [
         "stadium": "Estadio Nacional (Lima)",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate copero sin goles"
+        "scorer": "Empate en la vuelta a La Copa"
     },
     {
         "year": 2018,
@@ -827,7 +827,7 @@ const matches = [
         "stadium": "Diego Armando Maradona",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en La Paternal"
+        "scorer": "Gol de Mac Allister para ellos"
     },
     {
         "year": 2018,
@@ -887,7 +887,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Derrota en casa"
+        "scorer": "Gol de Marquez para ellos"
     },
     {
         "year": 2018,
@@ -907,7 +907,7 @@ const matches = [
         "stadium": "Libertadores de América",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en Avellaneda"
+        "scorer": "Gol de Martin Benitez"
     },
     {
         "year": 2018,
@@ -917,7 +917,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Dura derrota copera en casa"
+        "scorer": "Fatidica noche de Copa de Rossi"
     },
     {
         "year": 2018,
@@ -947,7 +947,7 @@ const matches = [
         "stadium": "Juan Carmelo Zerillo",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Boca bicampeón con gol de Wanchope"
+        "scorer": "Boca bicampeón"
     },
     {
         "year": 2018,
@@ -970,6 +970,16 @@ const matches = [
         "scorer": "Doblete de Ramón Wanchope Ábila"
     },
     {
+ 	"year": 2018,
+        "month": "Agosto",
+        "tournament": "Copa Argentina",
+        "rival": "Alvarado Mar del Plata",
+        "stadium": "EstadiocCiudad de Lanús",
+        "bocaScore": 6,
+        "rivalScore": 0,
+        "scorer": "Doblete de Pablo Pérez"
+    },
+    {
         "year": 2018,
         "month": "Agosto",
         "tournament": "Copa Libertadores (Octavos)",
@@ -990,6 +1000,26 @@ const matches = [
         "scorer": "Gol de Cristian Pavón"
     },
     {
+        year: 2026,
+        month: "Agosto",
+        tournament: "Liga Profesional de Fútbol",
+        stadium: "Estadio Jorge Luis Hirschi",
+        rival: "Estudiantes de La Plata",
+        bocaScore: 0,
+        rivalScore: 2,
+        scorer: "Hubo gol de Pellegrini para ellos."
+    },
+    {
+        year: 2026,
+        month: "Agosto",
+        tournament: "Trofeo Joan Gamper",
+        stadium: "Camp Nou",
+        rival: "Barcelona",
+        bocaScore: 0,
+        rivalScore: 3,
+        scorer: "Hubo gol de Messi."
+    },
+    {
         "year": 2018,
         "month": "Agosto",
         "tournament": "Copa Libertadores (Octavos)",
@@ -1007,7 +1037,7 @@ const matches = [
         "stadium": "Tomás Adolfo Ducó",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en Parque Patricios"
+        "scorer": "Fue Empate en Parque Patricios"
     },
     {
         "year": 2018,
@@ -1037,7 +1067,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": " Lesión de mandibula de Andrada"
+        "scorer": " Gol de Mauro Zarate y lesión de mandibula de Andrada"
     },
     {
         "year": 2018,
@@ -1047,7 +1077,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en el Superclásico local"
+        "scorer": "Gol de Martinez para ellos"
     },
     {
         "year": 2018,
@@ -1057,7 +1087,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Eliminación del torneo"
+        "scorer": "Gol de Hurtado"
     },
     {
         "year": 2018,
@@ -1087,7 +1117,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2018,
@@ -1287,7 +1317,7 @@ const matches = [
         "stadium": "Arena da Baixada",
         "bocaScore": 0,
         "rivalScore": 3,
-        "scorer": "Dura derrota en Brasil"
+        "scorer": "Gol de Marco Ruben"
     },
     {
         "year": 2019,
@@ -1367,7 +1397,7 @@ const matches = [
         "stadium": "José Amalfitani",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue empate en la ida en Liniers"
     },
     {
         "year": 2019,
@@ -1387,7 +1417,7 @@ const matches = [
         "stadium": "Diego Armando Maradona",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en La Paternal"
+        "scorer": "Fue Empate en la ida e La Paternal"
     },
     {
         "year": 2019,
@@ -1407,7 +1437,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en la final"
+        "scorer": "Gol de Janson para Tigre"
     },
     {
         "year": 2019,
@@ -1427,7 +1457,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en el debut"
+        "scorer": "Fue empate"
     },
     {
         "year": 2019,
@@ -1487,7 +1517,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate y pase a semis"
+        "scorer": "Fue Empate y pase a semis"
     },
     {
         "year": 2019,
@@ -1537,7 +1567,7 @@ const matches = [
         "stadium": "Estadio Monumental",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en la ida"
+        "scorer": "Gol de Borré de penal"
     },
     {
         "year": 2019,
@@ -1557,7 +1587,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída de local"
+        "scorer": "Gol de Zaracho para ellos"
     },
     {
         "year": 2019,
@@ -1597,7 +1627,7 @@ const matches = [
         "stadium": "José Amalfitani",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en Liniers"
+        "scorer": "Fue Empate en Liniers"
     },
     {
         "year": 2019,
@@ -1627,7 +1657,7 @@ const matches = [
         "stadium": "Gigante de Arroyito",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Cierre de año con derrota"
+        "scorer": "Gol de Ribas para ellos"
     },
     {
         "year": 2020,
@@ -1637,7 +1667,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate clásico sin goles"
+        "scorer": "Roja a Izquierdoz en el primer partido de la nueva Dirigencia"
     },
     {
         "year": 2020,
@@ -1647,7 +1677,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Goles de Villa y Tevez"
+        "scorer": "Hubo gol de Villa"
     },
     {
         "year": 2020,
@@ -1667,7 +1697,7 @@ const matches = [
         "stadium": "Alfredo Terrera",
         "bocaScore": 4,
         "rivalScore": 0,
-        "scorer": "Doblete de Carlos Tevez"
+        "scorer": "Hubo gol de Carlos Tevez"
     },
     {
         "year": 2020,
@@ -1737,7 +1767,7 @@ const matches = [
         "stadium": "General Pablo Rojas",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Doblete de Eduardo Salvio"
+        "scorer": "Gol de Eduardo Salvio en la vuelta al fútbol post pandemia"
     },
     {
         "year": 2020,
@@ -1757,7 +1787,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2020,
@@ -1767,7 +1797,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Doblete de Carlos Tevez"
+        "scorer": "Gol de Carlos Tevez"
     },
     {
         "year": 2020,
@@ -1797,7 +1827,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en casa"
+        "scorer": "Gol de Soñora de ellos"
     },
     {
         "year": 2020,
@@ -1817,7 +1847,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Doblete de Edwin Cardona"
+        "scorer": "Doblete de Edwin Cardona y dedicatoria a Diego"
     },
     {
         "year": 2020,
@@ -1837,7 +1867,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en Córdoba"
+        "scorer": "Fue Empate en Córdoba"
     },
     {
         "year": 2020,
@@ -1847,7 +1877,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Pase heroico por penales"
+        "scorer": "Pase por penales"
     },
     {
         "year": 2020,
@@ -1867,7 +1897,7 @@ const matches = [
         "stadium": "El Cilindro",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en Avellaneda"
+        "scorer": "Gol de Melgarejo en Avellaneda"
     },
     {
         "year": 2020,
@@ -1887,7 +1917,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Goles de Salvio y Villa"
+        "scorer": "Goles de Salvio"
     },
     {
         "year": 2020,
@@ -1897,7 +1927,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Doblete de Ramón Wanchope Ábila"
+        "scorer": "Gol de Ramón Wanchope Ábila"
     },
     {
         "year": 2021,
@@ -1917,7 +1947,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate cerrado"
+        "scorer": "Fue Empate en la ida"
     },
     {
         "year": 2021,
@@ -1937,7 +1967,7 @@ const matches = [
         "stadium": "Vila Belmiro",
         "bocaScore": 0,
         "rivalScore": 3,
-        "scorer": "Dura eliminación"
+        "scorer": "Gol de Soteldo y pisoton de Fabra a Marinho"
     },
     {
         "year": 2021,
@@ -2007,7 +2037,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Gol de Sebastián Villa"
+        "scorer": "Gol de Sebastián Villa de penal"
     },
     {
         "year": 2021,
@@ -2017,7 +2047,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Derrota en casa"
+        "scorer": "Gol de Michel Santos en contra"
     },
     {
         "year": 2021,
@@ -2047,7 +2077,7 @@ const matches = [
         "stadium": "15 de Abril",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en Santa Fe"
+        "scorer": "Gol de Nicolas Penailillo en Santa Fe"
     },
     {
         "year": 2021,
@@ -2107,7 +2137,7 @@ const matches = [
         "stadium": "Monumental Banco Pichincha",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en Guayaquil"
+        "scorer": "Gol de Carlos Garcés en Guayaquil"
     },
     {
         "year": 2021,
@@ -2117,7 +2147,7 @@ const matches = [
         "stadium": "Presbítero Bartolomé Grella",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en Paraná"
+        "scorer": "Gol de Nicolas Torres para ellos"
     },
     {
         "year": 2021,
@@ -2127,7 +2157,7 @@ const matches = [
         "stadium": "Vila Belmiro",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota por la mínima"
+        "scorer": "Gol de Felipe Jonathan"
     },
     {
         "year": 2021,
@@ -2147,7 +2177,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2021,
@@ -2167,7 +2197,7 @@ const matches = [
         "stadium": "San Juan del Bicentenario",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Eliminación por penales"
+        "scorer": "Último partido de Tevez"
     },
     {
         "year": 2021,
@@ -2177,7 +2207,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate polémico"
+        "scorer": "Polémica anulacion al gol de Pulpo González"
     },
     {
         "year": 2021,
@@ -2197,7 +2227,7 @@ const matches = [
         "stadium": "Mineirão",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Eliminación por penales"
+        "scorer": "Anulacion escandalosa de gol de Weingadt y final a las piñas"
     },
     {
         "year": 2021,
@@ -2207,7 +2237,7 @@ const matches = [
         "stadium": "Florencio Sola",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Los pibes empataron en el Sur"
+        "scorer": "Partido jugado con la cuarta"
     },
     {
         "year": 2021,
@@ -2217,7 +2247,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota de local"
+        "scorer": "Gol de Ortigoza y Boca con la cuarta"
     },
     {
         "year": 2021,
@@ -2227,7 +2257,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2021,
@@ -2237,7 +2267,7 @@ const matches = [
         "stadium": "Ciudad de La Plata",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Triunfo por penales en el Superclásico"
+        "scorer": "Triunfo por penales con Obando de 9 y Rossi héroe"
     },
     {
         "year": 2021,
@@ -2247,7 +2277,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Gol de Miguel Ángel Russo"
+        "scorer": "Gol de Miguel Torrén E/C"
     },
     {
         "year": 2021,
@@ -2257,7 +2287,7 @@ const matches = [
         "stadium": "José Luis Hirschi",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en La Plata"
+        "scorer": "Último partido de Russo como DT"
     },
     {
         "year": 2021,
@@ -2287,7 +2317,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate de local"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2021,
@@ -2307,7 +2337,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin tantos"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2021,
@@ -2327,7 +2357,7 @@ const matches = [
         "stadium": "Único Madre de Ciudades",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Pase por penales"
+        "scorer": "Boca pasó por por penales"
     },
     {
         "year": 2021,
@@ -2387,7 +2417,7 @@ const matches = [
         "stadium": "José Amalfitani",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en Liniers"
+        "scorer": "Gol de Mancuello"
     },
     {
         "year": 2021,
@@ -2397,7 +2427,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en casa"
+        "scorer": "Gol de Luis Ángel Rodriguez para ellos"
     },
     {
         "year": 2021,
@@ -2437,7 +2467,7 @@ const matches = [
         "stadium": "Libertadores de América",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en Avellaneda"
+        "scorer": "Gol de Protesoni"
     },
     {
         "year": 2021,
@@ -2447,7 +2477,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate de local"
+        "scorer": "Fue Empate de local"
     },
     {
         "year": 2021,
@@ -2467,7 +2497,7 @@ const matches = [
         "stadium": "Único Madre de Ciudades",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Campeones de Copa Argentina por penales"
+        "scorer": "Campeones de Copa Argentina"
     },
     {
         "year": 2021,
@@ -2477,7 +2507,17 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 8,
         "rivalScore": 1,
-        "scorer": "Goleada monumental para cerrar el año"
+        "scorer": "Goleada para cerrar el año"
+    },
+    {
+        year: 2021,
+        month: "Diciembre",
+        tournament: "Amistoso (Maradona Cup)",
+        stadium: "Mrsool Park (Riad)",
+        rival: "Barcelona",
+        bocaScore: 1,
+        rivalScore: 1,
+        scorer: "Gol de Exequiel Zeballos."
     },
     {
         "year": 2022,
@@ -2537,7 +2577,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en casa"
+        "scorer": "Gol de Cóccaro"
     },
     {
         "year": 2022,
@@ -2557,7 +2597,7 @@ const matches = [
         "stadium": "Estadio Monumental",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Golazo con la camiseta amarilla de Sebastián Villa"
+        "scorer": "Gol con la camiseta amarilla de Sebastián Villa"
     },
     {
         "year": 2022,
@@ -2577,7 +2617,7 @@ const matches = [
         "stadium": "Palmaseca",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Debut con derrota en la Copa para Boca"
+        "scorer": "Gol de Guillermo Burdisso en Cali"
     },
     {
         "year": 2022,
@@ -2597,7 +2637,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2022,
@@ -2637,7 +2677,7 @@ const matches = [
         "stadium": "Neo Química Arena",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en Brasil"
+        "scorer": "Gol de Maycon"
     },
     {
         "year": 2022,
@@ -2647,7 +2687,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2022,
@@ -2707,7 +2747,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Goles de Rojo y Fabra. ¡Campeones!"
+        "scorer": "¡Campeones!"
     },
     {
         "year": 2022,
@@ -2747,7 +2787,7 @@ const matches = [
         "stadium": "Único Madre de Ciudades",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota visitante"
+        "scorer": "Gol de Francisco Gonzalez Metilli"
     },
     {
         "year": 2022,
@@ -2757,7 +2797,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 5,
         "rivalScore": 3,
-        "scorer": "Doblete de Darío Benedetto"
+        "scorer": "Gol de Darío Benedetto"
     },
     {
         "year": 2022,
@@ -2777,7 +2817,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Caída en casa"
+        "scorer": "Gol de Salvio y penal de Troyanski en el ultimo minuto"
     },
     {
         "year": 2022,
@@ -2787,7 +2827,7 @@ const matches = [
         "stadium": "Neo Química Arena",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate cerrado"
+        "scorer": "Fue Empate"
     },
     {
         "year": 2022,
@@ -2797,7 +2837,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 3,
-        "scorer": "Derrota con suplentes"
+        "scorer": "Gol de Galoppo con suplentes un viernes con lluvia a la noche"
     },
     {
         "year": 2022,
@@ -2807,7 +2847,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Dura eliminación por penales"
+        "scorer": "Fatídica noche de Benedetto con dos penales errados"
     },
     {
         "year": 2022,
@@ -2837,7 +2877,7 @@ const matches = [
         "stadium": "Diego Armando Maradona",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota de visitante"
+        "scorer": "Gol de Carabajal"
     },
     {
         "year": 2022,
@@ -2857,7 +2897,7 @@ const matches = [
         "stadium": "Presbítero Bartolomé Grella",
         "bocaScore": 0,
         "rivalScore": 3,
-        "scorer": "Derrota en Paraná"
+        "scorer": "Gol de Jonás Acevedo"
     },
     {
         "year": 2022,
@@ -2867,7 +2907,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Gol de Óscar Romero"
+        "scorer": "Gol de Óscar Romero de tiro libre"
     },
     {
         "year": 2022,
@@ -2887,7 +2927,7 @@ const matches = [
         "stadium": "El Cilindro",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en el clásico"
+        "scorer": "Fue Empate en el clásico"
     },
     {
         "year": 2022,
@@ -2897,7 +2937,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Nuevo empate sin goles"
+        "scorer": "Fue empate"
     },
     {
         "year": 2022,
@@ -3017,7 +3057,7 @@ const matches = [
         "stadium": "Coloso del Parque",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota antes del final"
+        "scorer": "Gol de Juanchon García"
     },
     {
         "year": 2022,
@@ -3027,7 +3067,7 @@ const matches = [
         "stadium": "Juan Carmelo Zerillo",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Gol de Frank Fabra y Luca Langoni"
+        "scorer": "Gol de Frank Fabra"
     },
     {
         "year": 2022,
@@ -3057,7 +3097,7 @@ const matches = [
         "stadium": "Parque La Pedrera",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Derrota en el alargue con polémicas"
+        "scorer": "Gol de Briasco y 6 expulsados"
     },
     {
         "year": 2023,
@@ -3067,7 +3107,7 @@ const matches = [
         "stadium": "Hazza bin Zayed",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Gol de Facundo Roncaglia"
+        "scorer": "Gol de Facundo Roncaglia y penal inspolito a Sandez"
     },
     {
         "year": 2023,
@@ -3087,7 +3127,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Penal atajado por Chiquito Romero"
     },
     {
         "year": 2023,
@@ -3137,7 +3177,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate de local"
+        "scorer": "Fue Empate de local"
     },
     {
         "year": 2023,
@@ -3147,7 +3187,7 @@ const matches = [
         "stadium": "Florencio Sola",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en el Sur"
+        "scorer": "Gol de Quirós para ellos"
     },
     {
         "year": 2023,
@@ -3177,7 +3217,7 @@ const matches = [
         "stadium": "Monumental de Maturín",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en Venezuela"
+        "scorer": "Empate en el debut de Copa"
     },
     {
         "year": 2023,
@@ -3187,7 +3227,7 @@ const matches = [
         "stadium": "Nuevo Gasómetro",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en el clásico"
+        "scorer": "Gol de Pol Fernandez en contra"
     },
     {
         "year": 2023,
@@ -3277,7 +3317,7 @@ const matches = [
         "stadium": "Hernán Ramírez Villegas",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en Colombia"
+        "scorer": "Gol de Arley Rodríguez en Colombia"
     },
     {
         "year": 2023,
@@ -3297,7 +3337,7 @@ const matches = [
         "stadium": "Julio Humberto Grondona",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en Sarandí"
+        "scorer": "Gol de Pombo"
     },
     {
         "year": 2023,
@@ -3327,7 +3367,7 @@ const matches = [
         "stadium": "Malvinas Argentinas",
         "bocaScore": 0,
         "rivalScore": 4,
-        "scorer": "Dura derrota en Mendoza"
+        "scorer": "Gol del Ruso Diego Rodríguez de penal"
     },
     {
         "year": 2023,
@@ -3417,7 +3457,7 @@ const matches = [
         "stadium": "Gran Parque Central",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Empate en la ida"
     },
     {
         "year": 2023,
@@ -3427,7 +3467,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Gol de Merentiel y Advíncula"
+        "scorer": "Gol de Merentiel de cabeza y penales"
     },
     {
         "year": 2023,
@@ -3447,7 +3487,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate cerrado"
+        "scorer": "Empate en la ida"
     },
     {
         "year": 2023,
@@ -3457,7 +3497,7 @@ const matches = [
         "stadium": "Eva Perón",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota de visitante"
+        "scorer": "Gol de Gabriel Diaz para ellos"
     },
     {
         "year": 2023,
@@ -3477,7 +3517,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en casa"
+        "scorer": "Gol de Luciatti para ellos"
     },
     {
         "year": 2023,
@@ -3487,7 +3527,7 @@ const matches = [
         "stadium": "Carlos Augusto Mercado Luna",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Triunfo por penales"
+        "scorer": "Gol de Bullaude"
     },
     {
         "year": 2023,
@@ -3497,7 +3537,7 @@ const matches = [
         "stadium": "Norberto Tomaghello",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en Varela"
+        "scorer": "Gol de Uvita Fernandez"
     },
     {
         "year": 2023,
@@ -3527,7 +3567,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Ida sin ventajas"
+        "scorer": "Empate en la idea"
     },
     {
         "year": 2023,
@@ -3537,7 +3577,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota clásica en casa"
+        "scorer": "Gol de Rondón en clasico con suplentes"
     },
     {
         "year": 2023,
@@ -3557,7 +3597,7 @@ const matches = [
         "stadium": "Julio César Villagra",
         "bocaScore": 3,
         "rivalScore": 4,
-        "scorer": "Partidazo con derrota"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2023,
@@ -3567,7 +3607,7 @@ const matches = [
         "stadium": "Malvinas Argentinas",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Pase por penales"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2023,
@@ -3587,7 +3627,7 @@ const matches = [
         "stadium": "El Cilindro",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Derrota sobre el final"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2023,
@@ -3637,7 +3677,7 @@ const matches = [
         "stadium": "Mario Alberto Kempes",
         "bocaScore": 2,
         "rivalScore": 3,
-        "scorer": "Doblete de Merentiel"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2023,
@@ -3657,7 +3697,7 @@ const matches = [
         "stadium": "Estadio Ciudad de Vicente López",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles en el debut del año"
+        "scorer": "Empate en el debut del año"
     },
     {
         "year": 2024,
@@ -3677,7 +3717,7 @@ const matches = [
         "stadium": "Estadio José Dellagiovanna",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Victoria firme de visitante"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2024,
@@ -3687,7 +3727,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin tantos"
+        "scorer": "Empate"
     },
     {
         "year": 2024,
@@ -3697,7 +3737,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Triunfo sólido en La Bombonera"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2024,
@@ -3707,7 +3747,7 @@ const matches = [
         "stadium": "Estadio Ciudad de Lanús",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Caída en el Sur"
+        "scorer": "Gol de Blondel"
     },
     {
         "year": 2024,
@@ -3727,7 +3767,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 3,
         "rivalScore": 2,
-        "scorer": "Gran triunfo en casa"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2024,
@@ -3737,7 +3777,7 @@ const matches = [
         "stadium": "Estadio 15 de Abril",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota ajustada en Santa Fe"
+        "scorer": "Gol de Corvalán"
     },
     {
         "year": 2024,
@@ -3748,16 +3788,6 @@ const matches = [
         "bocaScore": 4,
         "rivalScore": 2,
         "scorer": "Golazo de Blondel"
-    },
-    {
-        "year": 2024,
-        "month": "Marzo",
-        "tournament": "Copa de la Liga (Fecha 11)",
-        "rival": "Estudiantes (LP)",
-        "stadium": "Estadio Jorge Luis Hirschi",
-        "bocaScore": 0,
-        "rivalScore": 0,
-        "scorer": "Empate en La Plata"
     },
     {
         "year": 2024,
@@ -3787,7 +3817,7 @@ const matches = [
         "stadium": "Estadio Víctor Agustín Ugarte",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate en la altura boliviana"
+        "scorer": "Empate en la altura"
     },
     {
         "year": 2024,
@@ -3797,7 +3827,7 @@ const matches = [
         "stadium": "Estadio Marcelo Bielsa",
         "bocaScore": 3,
         "rivalScore": 1,
-        "scorer": "Gran victoria en Rosario"
+        "scorer": "Gol de Medina"
     },
     {
         "year": 2024,
@@ -3807,7 +3837,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo por la mínima en la Copa"
+        "scorer": "Gol de Anselmino"
     },
     {
         "year": 2024,
@@ -3817,7 +3847,7 @@ const matches = [
         "stadium": "Estadio Jorge Luis Hirschi",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en el partido pendiente"
+        "scorer": "Gol de M. Correa partido pendiente"
     },
     {
         "year": 2024,
@@ -3827,7 +3857,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Golazo de Cavani"
+        "scorer": "Golazo de Cavani con la camiseta sueca"
     },
     {
         "year": 2024,
@@ -3837,7 +3867,7 @@ const matches = [
         "stadium": "Estadio Mario Alberto Kempes",
         "bocaScore": 3,
         "rivalScore": 2,
-        "scorer": "Histórico baile en Córdoba con doblete de Merentiel"
+        "scorer": "Histórico baile en Córdoba con Gol de Merentiel"
     },
     {
         "year": 2024,
@@ -3847,7 +3877,7 @@ const matches = [
         "stadium": "Arena Castelão",
         "bocaScore": 2,
         "rivalScore": 4,
-        "scorer": "Dura derrota en Brasil"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2024,
@@ -3857,7 +3887,7 @@ const matches = [
         "stadium": "Estadio Mario Alberto Kempes",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Roja insólita de Lema"
+        "scorer": "Gol de Merentiel y Roja insólita de Lema"
     },
     {
         "year": 2024,
@@ -3877,7 +3907,7 @@ const matches = [
         "stadium": "Estadio Monumental José Fierro",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Caída en el arranque del torneo"
+        "scorer": "Gol de Mateo Coronel para ellos"
     },
     {
         "year": 2024,
@@ -3887,7 +3917,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en La Bombonera"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2024,
@@ -3897,7 +3927,7 @@ const matches = [
         "stadium": "Estadio Único Madre de Ciudades",
         "bocaScore": 4,
         "rivalScore": 2,
-        "scorer": "Goleada de visitante en Santiago"
+        "scorer": "Gol de Equi Fernández"
     },
     {
         "year": 2024,
@@ -3907,7 +3937,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Empate"
     },
     {
         "year": 2024,
@@ -3917,7 +3947,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 4,
         "rivalScore": 0,
-        "scorer": "Goleada para avanzar de ronda"
+        "scorer": "Gol de Zenón"
     },
     {
         "year": 2024,
@@ -3927,7 +3957,7 @@ const matches = [
         "stadium": "Estadio Ciudad de Vicente López",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en Vicente López"
+        "scorer": "Gol de Pellegrino y Roja a Marcos Rojo"
     },
     {
         "year": 2024,
@@ -3937,7 +3967,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo por la mínima en casa"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2024,
@@ -3947,7 +3977,7 @@ const matches = [
         "stadium": "Estadio Malvinas Argentinas",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Pase firme en la Copa Argentina"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2024,
@@ -3967,7 +3997,7 @@ const matches = [
         "stadium": "Estadio Norberto Tomaghello",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Empate en Varela"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2024,
@@ -3977,7 +4007,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo y clasificación a octavos"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2024,
@@ -3997,7 +4027,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Goleada contundente en casa"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2024,
@@ -4007,7 +4037,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en La Bombonera"
+        "scorer": "Gol de Milton Giménez"
     },
     {
         "year": 2024,
@@ -4017,7 +4047,7 @@ const matches = [
         "stadium": "Estadio Malvinas Argentinas",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Villa erra penal"
+        "scorer": "Gol de Medina y Villa erra penal"
     },
     {
         "year": 2024,
@@ -4037,7 +4067,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 3,
         "rivalScore": 2,
-        "scorer": "Gran victoria en el clásico"
+        "scorer": "Gol de Milton Giménez"
     },
     {
         "year": 2024,
@@ -4047,7 +4077,7 @@ const matches = [
         "stadium": "Estadio Mineirão",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Eliminación por penales (5-4)"
+        "scorer": "Gol de Milton Giménez"
     },
     {
         "year": 2024,
@@ -4057,7 +4087,7 @@ const matches = [
         "stadium": "Estadio Jorge Luis Hirschi",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en La Plata"
+        "scorer": "Gol de Milton Giménez"
     },
     {
         "year": 2024,
@@ -4067,7 +4097,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Victoria importante de local"
+        "scorer": "Gol de Tiro Libre de Lema"
     },
     {
         "year": 2024,
@@ -4077,7 +4107,7 @@ const matches = [
         "stadium": "Estadio Malvinas Argentinas",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Pase por penales (8-7)"
+        "scorer": "Gol de Brian Aguirre"
     },
     {
         "year": 2024,
@@ -4087,7 +4117,7 @@ const matches = [
         "stadium": "Estadio Presidente Perón",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Caída en Avellaneda"
+        "scorer": "Gol de Milton Giménez"
     },
     {
         "year": 2024,
@@ -4107,7 +4137,7 @@ const matches = [
         "stadium": "Estadio Julio César Villagra",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en Córdoba"
+        "scorer": "Último partido de Martinez como DT"
     },
     {
         "year": 2024,
@@ -4117,7 +4147,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo en casa"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2024,
@@ -4127,7 +4157,7 @@ const matches = [
         "stadium": "Estadio José Dellagiovanna",
         "bocaScore": 0,
         "rivalScore": 3,
-        "scorer": "Caída de visitante"
+        "scorer": "Gol de Nehuen Paz"
     },
     {
         "year": 2024,
@@ -4137,7 +4167,7 @@ const matches = [
         "stadium": "Estadio Marcelo Bielsa",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Pase por penales (2-1)"
+        "scorer": "Gol de Anselmino"
     },
     {
         "year": 2024,
@@ -4147,7 +4177,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en La Bombonera"
+        "scorer": "Gol de Cavani"
     },
     {
         "year": 2024,
@@ -4157,7 +4187,7 @@ const matches = [
         "stadium": "Estadio Ciudad de Lanús",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota en el Sur"
+        "scorer": "Gol de Salvio para ellos"
     },
     {
         "year": 2024,
@@ -4167,7 +4197,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 4,
         "rivalScore": 1,
-        "scorer": "Goleada contundente"
+        "scorer": "Gol de Aguirre"
     },
     {
         "year": 2024,
@@ -4177,7 +4207,7 @@ const matches = [
         "stadium": "Estadio Eva Perón",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Triunfo firme de visitante"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2024,
@@ -4187,7 +4217,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Victoria por la mínima"
+        "scorer": "Gol de Milton Gimenez"
     },
     {
         "year": 2024,
@@ -4217,7 +4247,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Victoria para cerrar la fecha"
+        "scorer": "Gol de Milton Gimenez"
     },
     {
         "year": 2024,
@@ -4227,7 +4257,7 @@ const matches = [
         "stadium": "Estadio Marcelo Bielsa",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo en Rosario"
+        "scorer": "Gol de Kevin Zenón"
     },
     {
         "year": 2024,
@@ -4237,7 +4267,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate para cerrar el torneo"
+        "scorer": "Fue empate en el cierre del torneo"
     },
     {
         "year": 2025,
@@ -4257,7 +4287,7 @@ const matches = [
         "stadium": "Estadio Diego Armando Maradona",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles en el inicio del Apertura"
+        "scorer": "Fue empate"
     },
     {
         "year": 2025,
@@ -4267,7 +4297,7 @@ const matches = [
         "stadium": "Estadio 15 de Abril",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate de visitante en Santa Fe"
+        "scorer": "Gol de Saracchi"
     },
     {
         "year": 2025,
@@ -4277,7 +4307,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Debut goleador de Carlos Palacios"
+        "scorer": "Debut goleador de Carlos Palacios y gol de tiro libe de Cavani"
     },
     {
         "year": 2025,
@@ -4287,7 +4317,7 @@ const matches = [
         "stadium": "Estadio Presidente Perón",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota clásica en Avellaneda"
+        "scorer": "Expulsaron a Zenon"
     },
     {
         "year": 2025,
@@ -4297,7 +4327,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Victoria sólida en La Bombonera"
+        "scorer": "Gol de Merentiel luego de blooper del arquero de IRM"
     },
     {
         "year": 2025,
@@ -4307,7 +4337,7 @@ const matches = [
         "stadium": "Estadio Florencio Sola",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo ajustado de visitante en el Sur"
+        "scorer": "Gol de cabeza de Di Lollo"
     },
     {
         "year": 2025,
@@ -4327,7 +4357,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Victoria en casa"
+        "scorer": "Hubo gol de Advincula"
     },
     {
         "year": 2025,
@@ -4337,7 +4367,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Eliminación por penales (4-5) tras igualar la serie"
+        "scorer": "Eliminacion vergonzosa de local en repechaje"
     },
     {
         "year": 2025,
@@ -4347,7 +4377,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Victoria por la mínima"
+        "scorer": "Hubo Gol de Milton Gimenez"
     },
     {
         "year": 2025,
@@ -4357,7 +4387,7 @@ const matches = [
         "stadium": "Estadio Único Madre de Ciudades",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Goleada de visitante en Santiago"
+        "scorer": "Hubo Gol de Milton Gimenez con la camiseta sueca"
     },
     {
         "year": 2025,
@@ -4367,7 +4397,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 4,
         "rivalScore": 0,
-        "scorer": "Contundente goleada en casa"
+        "scorer": "Hubo Gol de Milton Gimenez"
     },
     {
         "year": 2025,
@@ -4377,7 +4407,7 @@ const matches = [
         "stadium": "Estadio Marcelo Bielsa",
         "bocaScore": 0,
         "rivalScore": 2,
-        "scorer": "Derrota en Rosario"
+        "scorer": "Cavani erra penal y Ander entra por Delgado y sale lesionado al minuto que entró"
     },
     {
         "year": 2025,
@@ -4387,17 +4417,17 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo ajustado"
+        "scorer": "Hubo Gol de Battaglia de cabeza"
     },
     {
         "year": 2025,
         "month": "Abril",
         "tournament": "Torneo Apertura (Fecha 13)",
         "rival": "Belgrano",
-        "stadium": "La Bombonera",
+        "stadium": "Estadio Julio Cesar Villagra",
         "bocaScore": 3,
         "rivalScore": 1,
-        "scorer": "Gran victoria xeneize"
+        "scorer": "Hubo Gol de Marcos Rojo"
     },
     {
         "year": 2025,
@@ -4407,17 +4437,17 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Triunfo sólido en La Bombonera"
+        "scorer": "Hubo Gol de Palacios"
     },
     {
         "year": 2025,
         "month": "Abril",
         "tournament": "Torneo Apertura (Fecha 15)",
         "rival": "River Plate",
-        "stadium": "La Bombonera",
+        "stadium": "El Monumental",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Derrota en el Superclásico"
+        "scorer": "El gol del viento de Mastantuono"
     },
     {
         "year": 2025,
@@ -4427,14 +4457,14 @@ const matches = [
         "stadium": "Estadio José Dellagiovanna",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en Victoria"
+        "scorer": "Hubo gol de Zenon"
     },
     {
         "year": 2025,
         "month": "Mayo",
         "tournament": "Torneo Apertura (Octavos de final)",
         "rival": "Lanús",
-        "stadium": "Estadio Único de San Nicolás",
+        "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
         "scorer": "Se definió por penales"
@@ -4444,7 +4474,7 @@ const matches = [
         "month": "Mayo",
         "tournament": "Torneo Apertura (Cuartos de final)",
         "rival": "Independiente",
-        "stadium": "Estadio Mario Alberto Kempes",
+        "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 1,
         "scorer": "Eliminación en cuartos"
@@ -4457,7 +4487,7 @@ const matches = [
         "stadium": "Hard Rock Stadium",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Empate internacional en el Mundial de Clubes"
+        "scorer": "Debut en el Mundial de Clubes"
     },
     {
         "year": 2025,
@@ -4497,7 +4527,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en casa"
+        "scorer": "La vuelta de Paredes"
     },
     {
         "year": 2025,
@@ -4507,7 +4537,7 @@ const matches = [
         "stadium": "Estadio Único Madre de Ciudades",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Eliminación de la Copa Argentina"
+        "scorer": "Hubo Gol de Cavani"
     },
     {
         "year": 2025,
@@ -4517,7 +4547,7 @@ const matches = [
         "stadium": "Estadio Tomás Adolfo Ducó",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Gol de Miljevic"
+        "scorer": "Merentiel rompe la puerta del vestuario visitante"
     },
     {
         "year": 2025,
@@ -4527,7 +4557,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate clásico"
+        "scorer": "Hubo gol de Milton Gimenez de cabeza"
     },
     {
         "year": 2025,
@@ -4547,7 +4577,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Triunfo sólido de local"
+        "scorer": "Hubo gol de Cavani"
     },
     {
         "year": 2025,
@@ -4557,7 +4587,7 @@ const matches = [
         "stadium": "Estadio José María Minella",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Victoria en Mar del Plata"
+        "scorer": "Gol de Battaglia en tarde de lluvia y fria"
     },
     {
         "year": 2025,
@@ -4567,7 +4597,7 @@ const matches = [
         "stadium": "Estadio Gigante de Arroyito",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "La Vuelta de Miguel a Rosario"
+        "scorer": "La Vuelta de Miguel a Rosario con gol de R. Battaglia"
     },
     {
         "year": 2025,
@@ -4577,7 +4607,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Empate con muchos goles"
+        "scorer": "Hubo gol de R. Battaglia"
     },
     {
         "year": 2025,
@@ -4587,7 +4617,7 @@ const matches = [
         "stadium": "Estadio Norberto Tomaghello",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Derrota en Varela"
+        "scorer": "Hubo gol de Paredes de penal"
     },
     {
         "year": 2025,
@@ -4597,17 +4627,17 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 5,
         "rivalScore": 0,
-        "scorer": "Goleada imponente en casa"
+        "scorer": "Hubo doblete de Milton Gimenez"
     },
     {
         "year": 2025,
         "month": "Octubre",
         "tournament": "Torneo Clausura (Fecha 13)",
         "rival": "Belgrano",
-        "stadium": "Estadio Julio César Villagra",
+        "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Caída en Córdoba"
+        "scorer": "Hubo gol de Zeballos"
     },
     {
         "year": 2025,
@@ -4617,7 +4647,7 @@ const matches = [
         "stadium": "Estadio Claudio Chiqui Tapia",
         "bocaScore": 3,
         "rivalScore": 1,
-        "scorer": "Triunfo contundente"
+        "scorer": "Hubo gol de Milton Gimenez"
     },
     {
         "year": 2025,
@@ -4627,7 +4657,7 @@ const matches = [
         "stadium": "Estadio Jorge Luis Hirschi",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Victoria agónica"
+        "scorer": "Hubo gol de Zeballos"
     },
     {
         "year": 2025,
@@ -4647,7 +4677,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Victoria para cerrar la fase regular"
+        "scorer": "Hubo gol de Ayrton Costa"
     },
     {
         "year": 2025,
@@ -4657,7 +4687,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Pase firme a cuartos"
+        "scorer": "Hubo gol de Merentiel"
     },
     {
         "year": 2025,
@@ -4667,7 +4697,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo clave rumbo al título"
+        "scorer": "Hubo gol de Ayrton Costa"
     },
     {
         "year": 2025,
@@ -4677,7 +4707,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "El famoso cambio de Zeballos"
+        "scorer": "El famoso cambio de Ubeda de Zeballos"
     },
     {
         "year": 2026,
@@ -4687,7 +4717,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Victoria inicial en el Apertura"
+        "scorer": "Hubo gol de Di Lollo"
     },
     {
         "year": 2026,
@@ -4697,7 +4727,7 @@ const matches = [
         "stadium": "Estadio Jorge Luis Hirschi",
         "bocaScore": 1,
         "rivalScore": 2,
-        "scorer": "Caída en La Plata"
+        "scorer": "Hubo gol de Zeballos"
     },
     {
         "year": 2026,
@@ -4707,7 +4737,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Triunfo sólido en casa"
+        "scorer": "Hubo gol de Paredes de penal"
     },
     {
         "year": 2026,
@@ -4727,7 +4757,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate sin goles"
+        "scorer": "Fue empate"
     },
     {
         "year": 2026,
@@ -4737,7 +4767,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 0,
         "rivalScore": 0,
-        "scorer": "Empate clásico"
+        "scorer": "Fue empate"
     },
     {
         "year": 2026,
@@ -4747,7 +4777,7 @@ const matches = [
         "stadium": "Estadio Único Madre de Ciudades",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Triunfo firme en Copa Argentina"
+        "scorer": "Debut de Adam Bareiro"
     },
     {
         "year": 2026,
@@ -4757,7 +4787,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en casa"
+        "scorer": "Hubo gol de Merentiel"
     },
     {
         "year": 2026,
@@ -4767,7 +4797,7 @@ const matches = [
         "stadium": "Estadio Ciudad de Lanús",
         "bocaScore": 3,
         "rivalScore": 0,
-        "scorer": "Goleada de visitante en el Sur"
+        "scorer": "Hubo gol de Ascacibar "
     },
     {
         "year": 2026,
@@ -4777,7 +4807,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate clásico"
+        "scorer": "Hubo gol de Ascacibar"
     },
     {
         "year": 2026,
@@ -4787,7 +4817,7 @@ const matches = [
         "stadium": "Estadio 15 de Abril",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate en Santa Fe"
+        "scorer": "Hubo gol de Merentiel"
     },
     {
         "year": 2026,
@@ -4797,7 +4827,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 0,
-        "scorer": "Victoria contundente"
+        "scorer": "Hubo gol de Aranda"
     },
     {
         "year": 2026,
@@ -4807,7 +4837,7 @@ const matches = [
         "stadium": "Estadio Mario Alberto Kempes",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Triunfo clave de visitante"
+        "scorer": "Hubo gol de Bareiro"
     },
     {
         "year": 2026,
@@ -4857,7 +4887,7 @@ const matches = [
         "stadium": "Estadio Norberto Tomaghello",
         "bocaScore": 4,
         "rivalScore": 0,
-        "scorer": "Goleada monumental de visitante"
+        "scorer": "Hubo gol de Bareiro"
     },
     {
         "year": 2026,
@@ -4877,7 +4907,7 @@ const matches = [
         "stadium": "Estadio Único Madre de Ciudades",
         "bocaScore": 2,
         "rivalScore": 1,
-        "scorer": "Triunfo en Santiago"
+        "scorer": "Hubo gol de Velasco"
     },
     {
         "year": 2026,
@@ -4887,7 +4917,7 @@ const matches = [
         "stadium": "Estadio Monumental Banco Pichincha",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Derrota por la mínima"
+        "scorer": "Lluvia fatal en Guayaquil y roja a Ascacibar"
     },
     {
         "year": 2026,
@@ -4897,7 +4927,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 2,
         "rivalScore": 3,
-        "scorer": "Eliminación en tiempo suplementario"
+        "scorer": "Hubo gol de Angel Romero"
     },
     {
         "year": 2026,
@@ -4907,7 +4937,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Final con polémica"
+        "scorer": "Gol de Merentiel y final con polémica"
     },
     {
         "year": 2026,
@@ -4937,7 +4967,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Victoria en la ida internacional"
+        "scorer": "Gol de Merentiel"
     },
     {
         "year": 2026,
@@ -4947,7 +4977,7 @@ const matches = [
         "stadium": "Estadio Guillermo Laza",
         "bocaScore": 0,
         "rivalScore": 3,
-        "scorer": "Tropiezo en el arranque del Clausura"
+        "scorer": "Noche de bloopers de Montero"
     },
     {
         "year": 2026,
@@ -4957,7 +4987,7 @@ const matches = [
         "stadium": "Estadio El Teniente",
         "bocaScore": 0,
         "rivalScore": 1,
-        "scorer": "Clasificación por penales (4-3)"
+        "scorer": "Gran actuacion de Montero en la tanda de penales"
     },
     {
         "year": 2026,
@@ -4967,7 +4997,7 @@ const matches = [
         "stadium": "Estadio Marcelo Bielsa",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Empate con goles en Rosario"
+        "scorer": "Hubo gol de Ascacibar"
     },
     {
         "year": 2026,
@@ -4977,7 +5007,7 @@ const matches = [
         "stadium": "Estadio Tomás Adolfo Ducó",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Partido jugado en el Ducó"
+        "scorer": "Hubo gol de Ascacibar"
     },
     {
         "year": 2026,
@@ -4987,7 +5017,7 @@ const matches = [
         "stadium": "Estadio Tomás Adolfo Ducó",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Partido jugado en el Ducó"
+        "scorer": "Hubo gol de Ascacibar"
     },
     {
         "year": 2026,
@@ -4997,7 +5027,7 @@ const matches = [
         "stadium": "Estadio Tomás Adolfo Ducó",
         "bocaScore": 3,
         "rivalScore": 1,
-        "scorer": "Solida victoria de ida"
+        "scorer": "Hubo gol de Ascacibar"
     },
     {
         "year": 2026,
@@ -5007,7 +5037,7 @@ const matches = [
         "stadium": "Estadio Ciudad de Vicente López",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate de visitante"
+        "scorer": "Hubo gol de Merentiel y el famoso grito de gol de Palermo"
     },
     {
         "year": 2026,
@@ -5017,7 +5047,7 @@ const matches = [
         "stadium": "Estadio Municipal de Recoleta",
         "bocaScore": 4,
         "rivalScore": 0,
-        "scorer": "Goleada y pase a cuartos"
+        "scorer": "Hubo gol de Villa"
     },
     {
         "year": 2026,
@@ -5027,7 +5057,7 @@ const matches = [
         "stadium": "Estadio Presidente Perón",
         "bocaScore": 1,
         "rivalScore": 1,
-        "scorer": "Empate clásico"
+        "scorer": "Hubo gol de Merentiel"
     },
     {
         "year": 2026,
@@ -5037,7 +5067,7 @@ const matches = [
         "stadium": "La Bombonera",
         "bocaScore": 1,
         "rivalScore": 0,
-        "scorer": "Gol de Belmonte agónico"
+        "scorer": "Hubo Gol de Belmonte agónico"
     },
     {
         "year": 2026,
@@ -5057,7 +5087,7 @@ const matches = [
         "stadium": "Estadio Víctor Antonio Legrotaglie",
         "bocaScore": 2,
         "rivalScore": 2,
-        "scorer": "Empate agónico"
+        "scorer": "Hubo golazo de Velasco"
     },
     {
         "year": 2026,
