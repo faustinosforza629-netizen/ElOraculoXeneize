@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Oráculo Xeneize</title>
+    <!-- Favicon SVG con los tres corazones perfectamente escalados -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 140 40%22><text x=%220%22 y=%2232%22 font-size=%2235%22>💙💛💙</text></svg>">
+    <!-- Tipografía compacta y fina (Barlow Condensed) -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Barlow Condensed', sans-serif;
+            background-color: #0b1329;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 0.5px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: #f3c653;
+            margin: 0 0 2px 0;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+        }
+        
+        .subtitle {
+            color: #b0c4de;
+            font-size: 0.7rem;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 400;
+            white-space: nowrap;
+        }
+
+        /* Pantalla de Menú / Configuración */
+        #setup-screen {
+            background: #060b18;
+            border: 2px solid #f3c653;
+            padding: 18px 22px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+            max-width: 400px;
+            width: 100%;
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+        .setup-group {
+            margin-bottom: 10px;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .setup-group label {
+            display: block;
+            margin-bottom: 3px;
+            color: #f3c653;
+        }
+        .setup-group select {
+            width: 100%;
+            padding: 6px;
+            background: #0b1329;
+            color: #ffffff;
+            border: 2px solid #233554;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: 6px;
+        }
+
+        /* Barra de estadísticas estilo pirámide (más larga) */
+        .stats-bar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: #111c38;
+            border: 2px solid #233554;
+            border-radius: 8px;
+            padding: 6px 6px;
+            margin-bottom: 12px;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            font-size: 0.55rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-sizing: border-box;
+        }
+        .stats-bar div {
+            display: flex;
+            flex-direction: column;
+            color: #b0c4de;
+        }
+        .stats-bar span {
+            color: #f3c653;
+            font-size: 0.8rem;
+            margin-top: 1px;
+            font-weight: 700;
+        }
+
+        /* Temporizador */
+        .timer-bar {
+            width: 100%;
+            max-width: 420px;
+            height: 5px;
+            background: #111c38;
+            border: 1px solid #233554;
+            margin-bottom: 10px;
+            display: none;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .timer-progress {
+            width: 100%;
+            height: 100%;
+            background: #f3c653;
+            transition: width 1s linear;
+        }
+
+        /* Cuadrado principal vertical clásico */
+        .container {
+            background: #060b18;
+            border: 2px solid #f3c653;
+            padding: 16px 18px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+            max-width: 420px;
+            width: 100%;
+            box-sizing: border-box;
+            display: none;
+            position: relative;
+        }
+
+        /* Botón de Menú integrado */
+        .top-menu-bar {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 8px;
+        }
+        .menu-btn-small {
+            background: #0b1329;
+            border: 1px solid #f3c653;
+            color: #f3c653;
+            padding: 4px 8px;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            text-transform: uppercase;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        .menu-btn-small:hover {
+            background: #f3c653;
+            color: #0b1329;
+        }
+
+        .match-info {
+            background: #111c38;
+            padding: 8px 10px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            font-size: 12px;
+            line-height: 1.4;
+            border-left: 4px solid #f3c653;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .hint-box {
+            background: rgba(243, 198, 83, 0.15);
+            border: 1px solid #f3c653;
+            padding: 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            margin-bottom: 10px;
+            display: none;
+            color: #fffae6;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .matchup-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0 14px 0;
+        }
+
+        .team-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+
+        .team-name {
+            font-size: 12px;
+            font-weight: 700;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 1.1;
+            padding: 0 2px;
+            letter-spacing: 1px;
+        }
+
+        input {
+            width: 48px;
+            height: 48px;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid #f3c653;
+            border-radius: 8px;
+            background: #0b1329;
+            color: #7f8c8d;
+            font-weight: 700;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        .vs-middle {
+            color: #f3c653;
+            font-size: 15px;
+            font-weight: 800;
+            margin: 0 8px;
+            padding-top: 18px;
+            letter-spacing: 1px;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 9px 10px;
+            font-size: 13px;
+            font-weight: 700;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background 0.2s;
+            flex: 1;
+            letter-spacing: 1px;
+        }
+        #action-btn, #start-btn, .summary-btn {
+            background-color: #f3c653;
+            color: #0b1329;
+            font-weight: 800;
+            width: 100%;
+        }
+        #action-btn:hover, #start-btn:hover, .summary-btn:hover {
+            background-color: #e0b343;
+        }
+        
+        #hint-btn {
+            background-color: #111c38;
+            color: #f3c653;
+            border: 2px solid #233554;
+            font-weight: 700;
+        }
+        #hint-btn:hover {
+            background-color: #1a2a4f;
+        }
+
+        .hint-notice {
+            background: rgba(243, 198, 83, 0.06);
+            border: 1px dashed #233554;
+            padding: 6px;
+            border-radius: 6px;
+            font-size: 10px;
+            margin-top: 10px;
+            color: #b0c4de;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: 500;
+            line-height: 1.3;
+            letter-spacing: 0.5px;
+        }
+
+        #feedback {
+            font-weight: 700; 
+            margin-top: 10px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Modal Resumen de la Partida */
+        #summary-screen {
+            background: #060b18;
+            border: 2px solid #233554;
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+            max-width: 420px;
+            width: 100%;
+            box-sizing: border-box;
+            display: none;
+            text-align: left;
+        }
+
+        .summary-title {
+            color: #f3c653;
+            font-size: 1.2rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            border-bottom: 1px solid #233554;
+            padding-bottom: 6px;
+            margin-bottom: 12px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .summary-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            margin-bottom: 12px;
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .summary-stat-box {
+            background: #111c38;
+            border: 1px solid #233554;
+            padding: 8px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        .summary-stat-box span {
+            display: block;
+            color: #f3c653;
+            font-size: 1rem;
+            font-weight: 800;
+            margin-top: 2px;
+        }
+
+        .summary-history-title {
+            color: #f3c653;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            letter-spacing: 1px;
+        }
+
+        .summary-history-list {
+            max-height: 180px;
+            overflow-y: auto;
+            border: 1px solid #233554;
+            background: #111c38;
+            padding: 6px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+        }
+
+        .history-item {
+            font-size: 11px;
+            padding: 5px;
+            border-bottom: 1px dotted #233554;
+            line-height: 1.3;
+        }
+        .history-item:last-child { border-bottom: none; }
+        .history-item.hit { color: #2ecc71; }
+        .history-item.miss { color: #e74c3c; }
+
+        .summary-btn-group {
+            display: flex;
+            gap: 8px;
+        }
+
+        .author {
+            margin-top: 15px;
+            font-size: 11px;
+            color: #8a9ba8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+        .author span {
+            color: #f3c653;
+            font-weight: 700;
+        }
+
+        /* Ajustes específicos para celulares */
+        @media (max-width: 440px) {
+            body { padding: 8px; }
+            h1 { font-size: 1.5rem; }
+            .subtitle { font-size: 0.6rem; }
+            #setup-screen, .container, .stats-bar, #summary-screen { max-width: 100%; }
+            input { width: 44px; height: 44px; font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>El Oráculo Xeneize</h1>
+    <div class="subtitle">Trivia Histórica (2016 - Actualidad)</div>
+
+    <!-- PANTALLA DE CONFIGURACIÓN Y FILTROS -->
+    <div id="setup-screen">
+        <div class="setup-group">
+            <label for="lives-select">Modo de Vidas:</label>
+            <select id="lives-select">
+                <option value="3">Normal (3 Vidas 💛💛💛)</option>
+                <option value="1">Leyenda Xeneize (1 Vida 💛)</option>
+                <option value="infinite">Modo Práctica (Sin Vidas ♾️)</option>
+            </select>
+        </div>
+
+        <div class="setup-group">
+            <label for="timer-select">Modo Contrarreloj:</label>
+            <select id="timer-select">
+                <option value="off">Desactivado (Sin límite)</option>
+                <option value="10">Activo (10 Segundos por partido)</option>
+            </select>
+        </div>
+
+        <div class="setup-group">
+            <label>Rango de Años (Desde - Hasta):</label>
+            <div style="display: flex; gap: 6px;">
+                <select id="year-from">
+                    <option value="2016" selected>2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                </select>
+                <select id="year-to">
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026" selected>2026</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="setup-group">
+            <label for="tournament-filter">Filtrar por Torneo:</label>
+            <select id="tournament-filter">
+                <option value="all">Todos los torneos</option>
+                <option value="Liga">Superliga / Liga Profesional / Copa de la Liga</option>
+                <option value="Libertadores">Copa Libertadores</option>
+                <option value="Sudamericana">Copa Sudamericana</option>
+                <option value="Copa Argentina">Copa Argentina</option>
+                <option value="Supercopa">Supercopa Argentina / Trofeo de Campeones</option>
+            </select>
+        </div>
+
+        <div class="setup-group">
+            <label for="rival-filter">Filtrar por Rival:</label>
+            <select id="rival-filter">
+                <option value="all">Todos los rivales</option>
+                <option value="todos-clasicos">🔥 Todos los Clásicos (River, San Lorenzo, Independiente, Racing)</option>
+                <option value="River Plate">River Plate</option>
+                <option value="San Lorenzo">San Lorenzo</option>
+                <option value="Independiente">Independiente</option>
+                <option value="Racing Club">Racing Club</option>
+            </select>
+        </div>
+
+        <button id="start-btn" onclick="startGame()">Comenzar Partida</button>
+    </div>
+    
+    <!-- BARRA DE ESTADÍSTICAS ESTILO PIRÁMIDE (MÁS LARGA) -->
+    <div class="stats-bar" id="stats-bar" style="display: none;">
+        <div>Puntos <span id="score">0</span></div>
+        <div>Réc. Pts <span id="max-score">0</span></div>
+        <div>Aciertos <span id="correct-count">0</span></div>
+        <div>Efect. <span id="efficiency">0%</span></div>
+        <div>Racha <span id="streak">0</span></div>
+        <div>Réc. Racha <span id="max-streak">0</span></div>
+        <div>Vidas <span id="lives-display">💛💛💛</span></div>
+    </div>
+
+    <!-- TEMPORIZADOR VISUAL -->
+    <div class="timer-bar" id="timer-bar">
+        <div class="timer-progress" id="timer-progress"></div>
+    </div>
+    
+    <!-- CUADRADO PRINCIPAL DE JUEGO VERTICAL -->
+    <div class="container" id="game-container">
+        <div class="top-menu-bar">
+            <button class="menu-btn-small" onclick="resetToSetup()">Menú / Filtros</button>
+        </div>
+
+        <div class="match-info" id="match-info">
+            Cargando partido...
+        </div>
+
+        <div class="hint-box" id="hint-box">
+            🎯 <b>AYUDA:</b> <span id="hint-text"></span>
+        </div>
+        
+        <div class="matchup-container">
+            <div class="team-column">
+                <div class="team-name">BOCA JUNIORS</div>
+                <input type="number" id="boca-input" min="0" value="0" onclick="this.select()">
+            </div>
+            
+            <div class="vs-middle">VS</div>
+            
+            <div class="team-column">
+                <div class="team-name" id="rival-name-header">RIVAL</div>
+                <input type="number" id="rival-input" min="0" value="0" onclick="this.select()">
+            </div>
+        </div>
+        
+        <div class="btn-container">
+            <button id="hint-btn" onclick="showHint()">Ayuda</button>
+            <button id="action-btn" onclick="checkAnswer()">Comprobar</button>
+        </div>
+
+        <div class="hint-notice" id="hint-notice">
+            💡 <b>REGLAS:</b> PLENO 4 PTS | PLENO C/AYUDA 3 PTS | GANADOR S/AYUDA 2 PTS | GANADOR C/AYUDA 1 PT.
+        </div>
+
+        <p id="feedback"></p>
+    </div>
+
+    <!-- RESUMEN AL SALIR / TERMINAR -->
+    <div id="summary-screen">
+        <div class="summary-title" id="summary-title-text">❌ Fin de la Partida</div>
+
+        <div class="summary-stats-grid">
+            <div class="summary-stat-box">Puntos Totales <span id="sum-score">0</span></div>
+            <div class="summary-stat-box">Plenos (+4) <span id="sum-plenos">0</span></div>
+            <div class="summary-stat-box">Efectividad <span id="sum-eff">0%</span></div>
+            <div class="summary-stat-box">Máx. Racha <span id="sum-streak">0</span></div>
+        </div>
+
+        <div class="summary-history-title">📜 Historial de la Sesión:</div>
+        <div class="summary-history-list" id="summary-history-list"></div>
+
+        <div class="summary-btn-group">
+            <button class="summary-btn" onclick="startGame()">Nueva Partida</button>
+            <button class="summary-btn" style="background:#111c38; color:#f3c653; border: 1px solid #f3c653;" onclick="resetToSetup()">Menú / Filtros</button>
+        </div>
+    </div>
+
+    <div class="author">Hecho por: <span>Faustino Sforza</span> | Fuente: historiadeboca.com.ar</div>
+
+    <!-- Importamos la base de datos modular -->
+    <script src="base-completa.js"></script>
+
+    <script>
+        let currentMatch = {};
+        let score = 0;
+        let maxScore = parseInt(localStorage.getItem('oraculo_standard_max_score')) || 0;
+        let streak = 0;
+        let sessionMaxStreak = 0;
+        let maxStreak = parseInt(localStorage.getItem('oraculo_standard_max_streak')) || 0;
+        let totalPlayed = 0;
+        let correctCount = 0;
+        let exactCount = 0;
+        let lives = 3;
+        let maxLives = 3;
+        let isInfiniteLives = false;
+        let hintUsed = false;
+        let gameOver = false;
+        
+        let filteredMatches = [];
+        let usedMatchIndices = [];
+        let matchHistory = [];
+
+        let timerEnabled = false;
+        let timeLeft = 10;
+        let timerInterval = null;
+
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+        function playSound(type) {
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            let now = audioCtx.currentTime;
+
+            if (type === 'hint') {
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(440, now);
+                osc.frequency.exponentialRampToValueAtTime(880, now + 0.1);
+                gain.gain.setValueAtTime(0.1, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+                osc.start(now); osc.stop(now + 0.1);
+            } else if (type === 'exact') {
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(523.25, now);
+                osc.frequency.setValueAtTime(659.25, now + 0.1);
+                osc.frequency.setValueAtTime(783.99, now + 0.2);
+                gain.gain.setValueAtTime(0.15, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.35);
+                osc.start(now); osc.stop(now + 0.35);
+            } else if (type === 'win') {
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(440, now);
+                osc.frequency.setValueAtTime(554.37, now + 0.15);
+                gain.gain.setValueAtTime(0.1, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.3);
+                osc.start(now); osc.stop(now + 0.3);
+            } else if (type === 'life-lost') {
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(180, now);
+                osc.frequency.linearRampToValueAtTime(90, now + 0.25);
+                gain.gain.setValueAtTime(0.2, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.25);
+                osc.start(now); osc.stop(now + 0.25);
+            } else if (type === 'game-over') {
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(300, now);
+                osc.frequency.setValueAtTime(250, now + 0.2);
+                osc.frequency.setValueAtTime(200, now + 0.4);
+                osc.frequency.setValueAtTime(130, now + 0.6);
+                gain.gain.setValueAtTime(0.2, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 1.0);
+                osc.start(now); osc.stop(now + 1.0);
+            }
+        }
+
+        function startGame() {
+            if (typeof matches === 'undefined' || matches.length === 0) {
+                alert("Error: No se encontró la base de datos 'base-completa.js'.");
+                return;
+            }
+
+            let livesSelection = document.getElementById('lives-select').value;
+            isInfiniteLives = (livesSelection === 'infinite');
+            
+            if (isInfiniteLives) {
+                maxLives = 3;
+                lives = 999;
+            } else {
+                maxLives = parseInt(livesSelection);
+                lives = maxLives;
+            }
+
+            score = 0;
+            streak = 0;
+            sessionMaxStreak = 0;
+            totalPlayed = 0;
+            correctCount = 0;
+            exactCount = 0;
+            gameOver = false;
+            matchHistory = [];
+
+            let timerSetting = document.getElementById('timer-select').value;
+            timerEnabled = (timerSetting === '10');
+
+            let yearFrom = parseInt(document.getElementById('year-from').value);
+            let yearTo = parseInt(document.getElementById('year-to').value);
+            
+            if (yearFrom > yearTo) {
+                alert("El año de inicio no puede ser mayor al año de fin.");
+                return;
+            }
+
+            let tournamentSelection = document.getElementById('tournament-filter').value;
+            let rivalSelection = document.getElementById('rival-filter').value;
+
+            filteredMatches = matches.filter(m => {
+                let matchYear = parseInt(m.year);
+                let yearPass = (matchYear >= yearFrom && matchYear <= yearTo);
+                
+                let tournamentPass = true;
+                if (tournamentSelection === 'Liga') {
+                    let t = m.tournament.toLowerCase();
+                    tournamentPass = t.includes('liga') || t.includes('superliga') || t.includes('copa de la liga');
+                } else if (tournamentSelection !== 'all') {
+                    tournamentPass = m.tournament.includes(tournamentSelection);
+                }
+                
+                let rivalPass = true;
+                if (rivalSelection === 'todos-clasicos') {
+                    let r = m.rival.toLowerCase();
+                    rivalPass = r.includes('river') || r.includes('san lorenzo') || r.includes('independiente') || r.includes('racing');
+                } else if (rivalSelection !== 'all') {
+                    rivalPass = m.rival.toLowerCase().includes(rivalSelection.toLowerCase());
+                }
+
+                return yearPass && tournamentPass && rivalPass;
+            });
+
+            if (filteredMatches.length === 0) {
+                alert("¡No se encontraron partidos con ese rango y filtros! Probá ampliando la búsqueda.");
+                return;
+            }
+
+            usedMatchIndices = [];
+
+            document.getElementById('setup-screen').style.display = 'none';
+            document.getElementById('summary-screen').style.display = 'none';
+            document.getElementById('stats-bar').style.display = 'flex';
+            document.getElementById('game-container').style.display = 'block';
+            if (timerEnabled) document.getElementById('timer-bar').style.display = 'block';
+
+            document.getElementById('max-score').innerText = maxScore;
+            document.getElementById('max-streak').innerText = maxStreak;
+            updateStats();
+            loadRandomMatch();
+        }
+
+        function loadRandomMatch() {
+            if (gameOver) return;
+
+            if (usedMatchIndices.length >= filteredMatches.length) {
+                usedMatchIndices = [];
+            }
+
+            let randomIndex;
+            do {
+                randomIndex = Math.floor(Math.random() * filteredMatches.length);
+            } while (usedMatchIndices.includes(randomIndex));
+
+            usedMatchIndices.push(randomIndex);
+            currentMatch = filteredMatches[randomIndex];
+            hintUsed = false;
+
+            document.getElementById('match-info').innerHTML = 
+                `<span style="color: #f3c653; font-weight: 700; font-size: 11px;">${currentMatch.tournament} (${currentMatch.year})</span><br>` +
+                `<span style="color: #b0c4de; font-size: 11px; font-weight: 400;">📅 ${currentMatch.month} &nbsp;|&nbsp; 🏟️️ ${currentMatch.stadium}</span>`;
+
+            document.getElementById('rival-name-header').innerText = currentMatch.rival;
+
+            const bocaInput = document.getElementById('boca-input');
+            const rivalInput = document.getElementById('rival-input');
+            bocaInput.value = '0'; bocaInput.style.color = '#7f8c8d';
+            rivalInput.value = '0'; rivalInput.style.color = '#7f8c8d';
+            
+            document.getElementById('feedback').innerText = '';
+            document.getElementById('hint-box').style.display = 'none';
+            document.getElementById('hint-notice').style.display = 'block';
+            document.getElementById('hint-btn').style.display = 'block';
+            
+            const actionBtn = document.getElementById('action-btn');
+            actionBtn.innerText = 'Comprobar';
+            actionBtn.setAttribute('onclick', 'checkAnswer()');
+
+            if (timerEnabled) startTimer();
+        }
+
+        function startTimer() {
+            clearInterval(timerInterval);
+            timeLeft = 10;
+            const progress = document.getElementById('timer-progress');
+            progress.style.transition = 'none';
+            progress.style.width = '100%';
+
+            setTimeout(() => {
+                progress.style.transition = 'width 10s linear';
+                progress.style.width = '0%';
+            }, 50);
+
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    handleTimeOut();
+                }
+            }, 1000);
+        }
+
+        function handleTimeOut() {
+            if (gameOver) return;
+            totalPlayed += 1;
+            streak = 0;
+            
+            if (!isInfiniteLives) {
+                lives -= 1;
+                playSound('life-lost');
+            } else {
+                playSound('win');
+            }
+
+            matchHistory.push({
+                match: `${currentMatch.rival} (${currentMatch.year})`,
+                userScore: "Tiempo",
+                realScore: `${currentMatch.bocaScore}-${currentMatch.rivalScore}`,
+                points: 0,
+                hit: false
+            });
+
+            const feedback = document.getElementById('feedback');
+            feedback.style.color = '#e74c3c';
+            feedback.innerText = `⏰ ¡Tiempo agotado! Fue ${currentMatch.bocaScore}-${currentMatch.rivalScore}. ${!isInfiniteLives ? '(-1 vida)' : '(Modo práctica)'}`;
+
+            updateStats();
+            document.getElementById('hint-notice').style.display = 'none';
+            document.getElementById('hint-btn').style.display = 'none';
+
+            const actionBtn = document.getElementById('action-btn');
+            if (!isInfiniteLives && lives <= 0) {
+                triggerGameOver();
+            } else {
+                actionBtn.innerText = 'Siguiente Partido';
+                actionBtn.setAttribute('onclick', 'loadRandomMatch()');
+            }
+        }
+
+        document.querySelectorAll('input[type="number"]').forEach(input => {
+            input.addEventListener('input', function() { this.style.color = '#ffffff'; });
+        });
+
+        function showHint() {
+            if (gameOver) return;
+            playSound('hint');
+            hintUsed = true;
+            document.getElementById('hint-text').innerText = currentMatch.scorer;
+            document.getElementById('hint-notice').style.display = 'none';
+            document.getElementById('hint-box').style.display = 'block';
+            document.getElementById('hint-btn').style.display = 'none';
+        }
+
+        function checkAnswer() {
+            if (gameOver) return;
+            if (timerEnabled) clearInterval(timerInterval);
+
+            const bocaUser = parseInt(document.getElementById('boca-input').value);
+            const rivalUser = parseInt(document.getElementById('rival-input').value);
+            const feedback = document.getElementById('feedback');
+
+            if (isNaN(bocaUser) || isNaN(rivalUser)) {
+                feedback.style.color = '#f3c653';
+                feedback.innerText = 'Ingresá ambos resultados.';
+                if (timerEnabled) startTimer();
+                return;
+            }
+
+            totalPlayed += 1;
+            const realBoca = currentMatch.bocaScore;
+            const realRival = currentMatch.rivalScore;
+            const realTrend = realBoca > realRival ? 1 : (realBoca === realRival ? 0 : -1);
+            const userTrend = bocaUser > rivalUser ? 1 : (bocaUser === rivalUser ? 0 : -1);
+
+            let pointsToAdd = 0;
+            let messageType = '';
+            const isExactMatch = (bocaUser === realBoca && rivalUser === realRival);
+            const isCorrectWinnerOrDraw = (userTrend === realTrend);
+
+            if (hintUsed) {
+                if (isExactMatch) { pointsToAdd = 3; messageType = 'hint-exact'; correctCount += 1; }
+                else if (isCorrectWinnerOrDraw) { pointsToAdd = 1; messageType = 'hint-trend'; correctCount += 1; }
+            } else {
+                if (isExactMatch) { pointsToAdd = 4; messageType = 'exact'; correctCount += 1; exactCount += 1; }
+                else if (isCorrectWinnerOrDraw) { pointsToAdd = 2; messageType = 'trend'; correctCount += 1; }
+            }
+
+            if (pointsToAdd > 0) {
+                score += pointsToAdd;
+                if (score > maxScore) {
+                    maxScore = score;
+                    localStorage.setItem('oraculo_standard_max_score', maxScore);
+                }
+
+                if (pointsToAdd === 4 || pointsToAdd === 3) {
+                    streak += 1;
+                    if (streak > sessionMaxStreak) sessionMaxStreak = streak;
+                    if (streak > maxStreak) {
+                        maxStreak = streak;
+                        localStorage.setItem('oraculo_standard_max_streak', maxStreak);
+                    }
+                    playSound('exact');
+                } else {
+                    streak = 0;
+                    playSound('win');
+                }
+            } else {
+                streak = 0;
+                if (!isInfiniteLives) {
+                    lives -= 1;
+                    playSound('life-lost');
+                } else {
+                    playSound('win');
+                }
+            }
+
+            matchHistory.push({
+                match: `${currentMatch.rival} (${currentMatch.year})`,
+                userScore: `${bocaUser}-${rivalUser}`,
+                realScore: `${realBoca}-${realRival}`,
+                points: pointsToAdd,
+                hit: pointsToAdd > 0
+            });
+
+            if (messageType === 'exact') {
+                feedback.style.color = '#2ecc71';
+                feedback.innerText = `¡Resultado exacto! Fue ${realBoca}-${realRival}. (+4 PTS) (${currentMatch.scorer})`;
+            } else if (messageType === 'hint-exact') {
+                feedback.style.color = '#aed581';
+                feedback.innerText = `¡Pleno con ayuda! Fue ${realBoca}-${realRival}. (+3 PTS) (${currentMatch.scorer})`;
+            } else if (messageType === 'trend') {
+                feedback.style.color = '#f39c12';
+                feedback.innerText = `¡Acertaste el ganador! Fue ${realBoca}-${realRival}. (+2 PTS) (${currentMatch.scorer})`;
+            } else if (messageType === 'hint-trend') {
+                feedback.style.color = '#3498db';
+                feedback.innerText = `Acertaste ganador con ayuda. Fue ${realBoca}-${realRival}. (+1 PT) (${currentMatch.scorer})`;
+            } else {
+                feedback.style.color = '#e74c3c';
+                feedback.innerText = `Incorrecto. Fue ${realBoca}-${realRival}. (0 PTS) (${currentMatch.scorer})`;
+            }
+
+            updateStats();
+            document.getElementById('hint-notice').style.display = 'none';
+            document.getElementById('hint-btn').style.display = 'none';
+            
+            const actionBtn = document.getElementById('action-btn');
+            if (!isInfiniteLives && lives <= 0) {
+                triggerGameOver();
+            } else {
+                actionBtn.innerText = 'Siguiente Partido';
+                actionBtn.setAttribute('onclick', 'loadRandomMatch()');
+            }
+        }
+
+        function triggerGameOver() {
+            gameOver = true;
+            if (timerEnabled) clearInterval(timerInterval);
+            playSound('game-over');
+            
+            setTimeout(() => {
+                showSummaryScreen();
+            }, 1200);
+        }
+
+        function showSummaryScreen() {
+            document.getElementById('game-container').style.display = 'none';
+            document.getElementById('timer-bar').style.display = 'none';
+            document.getElementById('stats-bar').style.display = 'none';
+
+            let efficiency = totalPlayed > 0 ? Math.round((correctCount / totalPlayed) * 100) : 0;
+
+            document.getElementById('summary-title-text').innerText = isInfiniteLives ? '✨ Reporte de Práctica' : '❌ Fin de la Partida';
+            document.getElementById('sum-score').innerText = score;
+            document.getElementById('sum-plenos').innerText = exactCount;
+            document.getElementById('sum-eff').innerText = efficiency + '%';
+            document.getElementById('sum-streak').innerText = sessionMaxStreak;
+
+            const listContainer = document.getElementById('summary-history-list');
+            listContainer.innerHTML = '';
+
+            matchHistory.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = `history-item ${item.hit ? 'hit' : 'miss'}`;
+                div.innerHTML = `<b>#${index + 1} VS ${item.match}</b><br>` +
+                                `Tu resultado: <b>${item.userScore}</b> | Real: <b>${item.realScore}</b> (${item.points > 0 ? '+' + item.points + ' PTS' : '0 PTS'})`;
+                listContainer.appendChild(div);
+            });
+
+            document.getElementById('summary-screen').style.display = 'block';
+        }
+
+        function updateStats() {
+            let efficiency = totalPlayed > 0 ? Math.round((correctCount / totalPlayed) * 100) : 0;
+            let hearts = '';
+            
+            if (isInfiniteLives) {
+                hearts = '♾️ PRÁCTICA';
+            } else {
+                for (let i = 0; i < maxLives; i++) {
+                    hearts += (i < lives) ? '💛' : '🖤';
+                }
+            }
+
+            document.getElementById('score').innerText = score;
+            document.getElementById('max-score').innerText = maxScore;
+            document.getElementById('correct-count').innerText = correctCount;
+            document.getElementById('efficiency').innerText = efficiency + '%';
+            document.getElementById('streak').innerText = streak;
+            document.getElementById('max-streak').innerText = maxStreak;
+            document.getElementById('lives-display').innerText = hearts;
+        }
+
+        function resetToSetup() {
+            if (timerEnabled) clearInterval(timerInterval);
+            gameOver = false;
+            usedMatchIndices = []; 
+            filteredMatches = [];
+            
+            document.getElementById('game-container').style.display = 'none';
+            document.getElementById('summary-screen').style.display = 'none';
+            document.getElementById('stats-bar').style.display = 'none';
+            document.getElementById('timer-bar').style.display = 'none';
+            document.getElementById('setup-screen').style.display = 'block';
+
+            const actionBtn = document.getElementById('action-btn');
+            actionBtn.innerText = 'Comprobar';
+            actionBtn.setAttribute('onclick', 'checkAnswer()');
+        }
+    </script>
+</body>
+</html>
